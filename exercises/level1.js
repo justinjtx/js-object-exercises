@@ -23,7 +23,7 @@ const user = {
  * @returns {string}
  */
 function level1exercise1(user) {
-  
+  return user.password
 }
 
 /**
@@ -33,7 +33,8 @@ function level1exercise1(user) {
  * @returns {string}
  */
 function level1exercise2(user) {
-
+  return (user.first + " " + user.last)
+  
 }
 
 /**
@@ -43,7 +44,7 @@ function level1exercise2(user) {
  * @returns {string}
  */
 function level1exercise3(user) {
-  
+  return ("Hello, " + user.first + " " + user.last +"!")
 }
 
 /**
@@ -53,7 +54,8 @@ function level1exercise3(user) {
  * @returns {number}
  */
 function level1exercise4(user) {
-
+  userAge = (2021 - user.birthYear)
+  return userAge
 }
 
 /**
@@ -63,7 +65,7 @@ function level1exercise4(user) {
  * @returns {string}
  */
 function level1exercise5(user) {
-
+  return (user.first + " " + user.last).toUpperCase()
 }
 
 /**
@@ -73,5 +75,12 @@ function level1exercise5(user) {
  * @returns {string}
  */
 function level1exercise6(user) {
-
+  return (user.first[0] + user.last[0])
 }
+
+// const user = {
+//   first: 'John',
+//   last: 'Doe',
+//   password: '12345',
+//   birthYear: 1990
+// };
