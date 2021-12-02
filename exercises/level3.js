@@ -38,7 +38,14 @@ const exampleProductArray = [
  * @param {Product[]} products 
  * @returns {number}
  */
-function level3exercise1(products) {
+function level3exercise1(products) {  
+  
+  let total = 0
+  for (let i = 0; i < products.length; i++ ){
+    total = total + products[i].price
+    
+  }
+  return total
 
 }
 
